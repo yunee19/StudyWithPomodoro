@@ -10,4 +10,10 @@ Pomodoro Timer을 이용하여 다음 주기로 타이머를 설정: 25분 동�
 
 ## Web screenshots:
 
+### Main page:
+
 ![image](https://github.com/yunee19/StudyWithPomodoro/assets/133479803/ed2c10e5-ba5c-451d-891a-be0c27f925cc)
+
+![image](https://github.com/yunee19/StudyWithPomodoro/assets/133479803/d7e6d6f3-696c-40cf-9623-45309f10b36c)
+
+### Pomodoro timer page:
