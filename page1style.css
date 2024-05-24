@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+  background: whitesmoke;/*url('img3.jpg') no-repeat center center fixed;*/
+  background-size: cover;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3fcfc', GradientType=1);
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.control {
+  margin: 50px auto;
+  width: 300px;
+}
+
+.control-title {
+  display: block;
+  margin: 0 0 5px;
+  font-size: 1em;
+  letter-spacing: 0.25em;
+}
+
+.control-session,
+.control-break {
+  padding: 5px 10px;
+  width: 150px;
+  color: #3e4348;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.control-session {
+  float: left;
+}
+
+.control-break {
+  float: right;
+}
+
+.pomodoro {
+  position: relative;
+  top:23px;
+  left:3px;
+  margin: auto;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  color: #14452F;/*#3e4348;*/
+  text-align: center;
+}
+
+.music{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: #3e4348;
+  color: #fff;
+}
+.title {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background: #3e4348;
+  color: #fff;
+  font-size: 0.6em;
+  letter-spacing: 0.25em;
+}
+
+.status {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  color: #3e4348;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+.timer {
+  padding-top: 100px;
+  font-size: 5em;
+}
+
+.button {
+  margin: 15px 5px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  color: #3e4348;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #3e4348;
+  color: #fff;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.session {
+  border: 10px solid #8da573;
+  background: #8da573;
+  color: #fff;
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+.break {
+  background: #e3dede;
+  border: 10px solid #fff;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+@keyframes glow {
+  from {
+    -webkit-box-shadow: 0 0 30px 0 rgb(113,134,103);
+    -moz-box-shadow: 0 0 30px 0 rgb(113,134,103);
+    box-shadow: 0 0 30px 0 rgb(113,134,103);
+  }
+  to {
+    -webkit-box-shadow: 0 0 50px 5px rgb(113,134,103);
+    -moz-box-shadow: 0 0 50px 5px rgb(113,134,103);
+    box-shadow: 0 0 50px 5px rgb(113,134,103);
+  }
+}
+
+footer {
+  margin: 80px;
+  color: #3e4348;
+  font-size: 0.6em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'/>
+    <meta name="viewport" content="width=device-width">
+    <title>My Diary</title>
+    <link rel='stylesheet' href='reset.css' media='all'/>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Over+the+Rainbow|Lobster|Bangers|Julee' media='all and (min-width: 960px)' />
+    <link rel='stylesheet' href='960.css' type='text/css' media='all and (min-width: 960px)'/>
+    <link rel='stylesheet' href='diary.css' type='text/css' media='all'/>
+    <script>"JSON" in window || document.write('<script src="json2.js"><\/script>')</script>
+
+  </head>
+  <body>
+    <div id='page'>
+      <header>
+        <h1>Diary</h1>
+      </header>
+
+      <div id='content' class='container_12'>
+        <div class='grid_12' id='add-text'>
+          <div class='label'>Title</div>
+          <div class='field'><input type='text' name='subject'/></div>
+          <div class='label'>Today's note</div>
+          <div class='field'><textarea></textarea></div>
+          <div class='actions'>
+            <button onclick='diary.okEdit()'>Submit</button>
+            <button onclick='diary.cancelEdit()'>Cancel!</button>
+          </div>
+        </div>
+        <div class='clear'></div>
+        <div class='grid_3'>
+          <nav>
+            <ul>
+              <li><a href='#' onclick='diary.addTxt()'>Add A Text Entry!</a></li>
+            </ul>
+          </nav>
+          <div class='documentation'>
+            Welcome to the wonderful My Diary application! We hope you really enjoy it!<br/><br/>
+            Simply click "<b>Add A Text Entry!</b>" above and you'll be on your way to writing the most awesome
+            diary of your entire life!
+          </div>
+        </div>
+        <div class='grid_9' id='posts'>
+          XXX
+        </div>
+        <div class='clear'></div>
+      </div>
+      <footer>
+       <a href="https://github.com/iyip/diary/tree/master"> Decorate by Nguyen Thi Dung <br> original Author: https://github.com/iyip/diary/tree/master</a>
+      </footer>
+    </div>
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src='diary.js'></script>
+  </body>
+
+</html>

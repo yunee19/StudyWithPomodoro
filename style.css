@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+hr{
+  color: #14452F;
+  border: 2px solid;
+}
+.container {
+    max-width: 1500px; /* Đặt giá trị tối đa cho container nếu cần thiết */
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: #14452F;
+}
+
+.img1 {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.logo-container {
+    text-align: left;
+    padding: 10px;
+}
+
+.img1 {
+    display: block;
+    margin: 0; /* Không cần margin ở đây nếu bạn đã đặt left và top */
+}
+
+.logo-text {
+    position: fixed;
+    top: 40px;
+    left: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px #000; /* Tạo bóng viền cho  */
+}
+
+nav{
+  
+  height: 35px;
+  background: #fff;
+  margin-bottom: 5px;
+}
+nav .menu ul{
+  list-style: none;
+}
+nav .menu ul li{
+  float: left;
+  line-height: 35px;
+  padding: 0 15px;
+}
+nav .menu ul li a{
+  color: black ;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav .search{
+  line-height: 35px;
+  float: right;
+  margin-right: 30px;
+}
+#img2{
+  width: 1500px;
+  margin: 0 auto;
+}
+p, ol{
+  font-size: 25px;
+}
+
+article{
+  text-align: left;
+    padding: 25px;
+}
+iframe {
+  width: 100%; /* Tự động mở rộng iframe theo kích thước của cha (container) */
+  height: 650px; /* Đặt chiều cao cố định hoặc sử dụng các đơn vị linh hoạt khác như % */
+}
+footer{
+  background-color : #798e6f;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}

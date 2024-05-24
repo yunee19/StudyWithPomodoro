@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X_UA_Compatible" content="IE=edge">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="page1style.css">
+</head>
+
+<body>
+<div class="title">POMODORO TECHNIQUE</div>
+<div class="music"> <audio controls loop><source src="wandering.mp3" type="audio/mp3"></audio>
+</div>
+<div class="control clearfix">
+  <div class="control-session">
+    <span class="control-title">session</span>
+    <i class="fa fa-minus-circle" id="session-minus"></i> &nbsp; <span id="session">25</span> &nbsp; <i class="fa fa-plus-circle" id="session-plus"></i>
+  </div>
+
+  <div class="control-break">
+    <span class="control-title">break</span>
+    <i class="fa fa-minus-circle" id="break-minus"></i> &nbsp; <span id="break">5</span> &nbsp; <i class="fa fa-plus-circle" id="break-plus"></i>
+  </div>
+</div>
+
+<div class="pomodoro session"><br>
+  <div class="status">session</div>
+  <div class="timer">25:00</div>
+  <button class="button" id="switch"><i class="fa fa-exchange"></i><i class='fas fa-exchange-alt'></i></button>
+   <button class="button" id="reset"><i class="fa fa-refresh"></i><i class='fas fa-undo-alt'></i></button>
+  <button class="button" id="toggle"><i class="fa fa-play"></i></button>
+</div>
+<footer>decorate by Nguyen Thi Dung <br>original coded and designed by fitri ali</footer>
+<script src="page1.js"></script>
+</body>
+</html>
