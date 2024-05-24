@@ -17,3 +17,13 @@ Pomodoro Timer을 이용하여 다음 주기로 타이머를 설정: 25분 동�
 ![image](https://github.com/yunee19/StudyWithPomodoro/assets/133479803/d7e6d6f3-696c-40cf-9623-45309f10b36c)
 
 ### Pomodoro timer page:
+
+![image](https://github.com/yunee19/StudyWithPomodoro/assets/133479803/03b4ee7a-ac35-41ef-b5b2-0397fd77572c)
+
+### Todo page:
+
+![image](https://github.com/yunee19/StudyWithPomodoro/assets/133479803/a796fa61-73f0-4343-9b52-5ce6330d3b97)
+
+### Diary page:
+
+![image](https://github.com/yunee19/StudyWithPomodoro/assets/133479803/e3fd6d20-d34b-4648-bcf0-a6f07f526ffb)
