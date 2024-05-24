@@ -8,3 +8,6 @@ Pomodoro Timer을 이용하여 다음 주기로 타이머를 설정: 25분 동�
 할 일을 선택하고 25분 동안 일에 집중하고 타이머를 시작하세요. 알람이 울릴 때 5분 동안 쉰다.
 네 번의 주기를 완료한 후에는 20~30분 동안 긴 휴식을 취하기. 5.작업이 아직 완료되지 않았다면 전체 과정을 반복.
 
+## Web screenshots:
+
+![image](https://github.com/yunee19/StudyWithPomodoro/assets/133479803/ed2c10e5-ba5c-451d-891a-be0c27f925cc)
